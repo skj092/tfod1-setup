@@ -16,3 +16,12 @@ from object_detection.utils import label_map_util
 from object_detection.utils import visualization_utils as vis_util
 PATH_TO_LABELS = os.path.join('object_detection/data', 'mscoco_label_map.pbtxt')
 PATH_TO_TEST_IMAGES_DIR = 'object_detection/test_images'
+
+
+# custom object-detection
+1. download the data
+2. label it using labelimg
+3. convert .xml to .csv
+4. convert .csv to .tfrecord
+5. editing config file
+6. moving slim/file to research
